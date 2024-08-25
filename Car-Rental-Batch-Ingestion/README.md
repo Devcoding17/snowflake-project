@@ -4,7 +4,6 @@
 
 This project implements a data ingestion pipeline for car rental data, utilizing SCD2 (Slowly Changing Dimension Type 2) merge on the customer dimension table in Snowflake. The pipeline leverages Python, PySpark, GCP Dataproc, Airflow, and Snowflake.
 
-
 ### TECH STACK 
 
 * Python 🐍
@@ -23,13 +22,12 @@ This project implements a data ingestion pipeline for car rental data, utilizing
 
   
 ### Airflow DAG Structure
-
 <!DOCTYPE html>
 <html>
 <head>
 </head>
 <body>
-  <img src="" alt="Image description">
+  <img src="snowflake airflow.png" alt="Image description">
 </body>
 </html>
 
