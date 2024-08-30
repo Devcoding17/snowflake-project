@@ -14,7 +14,7 @@ STORAGE_ALLOWED_LOCATIONS = ('gcs://snowflake_projects/news_data_analysis/parque
 DESC INTEGRATION news_data_gcs_integration;
 
 CREATE OR REPLACE STAGE gcs_raw_data_stage
-URL = 'gcs://snowflake_projects/news_data_analysis/parquet_files/'
+URL = 'gcs:// YOUR BUCKET NAME'
 STORAGE_INTEGRATION = news_data_gcs_integration
 FILE_FORMAT = (TYPE = 'PARQUET')
 ;
