@@ -8,7 +8,7 @@ CREATE OR REPLACE STORAGE INTEGRATION news_data_gcs_integration
 TYPE = EXTERNAL_STAGE
 STORAGE_PROVIDER = GCS
 ENABLED = TRUE
-STORAGE_ALLOWED_LOCATIONS = ('gcs://snowflake_projects/news_data_analysis/parquet_files/')
+STORAGE_ALLOWED_LOCATIONS = ('gcs:// YOUR BUCKET NAME')
 ;
 
 DESC INTEGRATION news_data_gcs_integration;
